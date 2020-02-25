@@ -22,6 +22,7 @@
 		BD7DE820240577E0003CEB88 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE81F240577E0003CEB88 /* LoginView.swift */; };
 		BD7DE82224057CDA003CEB88 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE82124057CDA003CEB88 /* InputField.swift */; };
 		BD7DE82424057E96003CEB88 /* PasswordInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE82324057E96003CEB88 /* PasswordInputField.swift */; };
+		BD7DE82624059A6D003CEB88 /* LoginButtonContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7DE82524059A6D003CEB88 /* LoginButtonContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BD7DE81F240577E0003CEB88 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BD7DE82124057CDA003CEB88 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
 		BD7DE82324057E96003CEB88 /* PasswordInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputField.swift; sourceTree = "<group>"; };
+		BD7DE82524059A6D003CEB88 /* LoginButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				BD5072922404C2E1007A3F16 /* IconFigure.swift */,
 				BD7DE82124057CDA003CEB88 /* InputField.swift */,
 				BD7DE82324057E96003CEB88 /* PasswordInputField.swift */,
+				BD7DE82524059A6D003CEB88 /* LoginButtonContent.swift */,
 			);
 			path = HelperSwiftUI;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				BD50728E2404AA0B007A3F16 /* BottomNavBar.swift in Sources */,
 				BD7DE82424057E96003CEB88 /* PasswordInputField.swift in Sources */,
 				BD7DE820240577E0003CEB88 /* LoginView.swift in Sources */,
+				BD7DE82624059A6D003CEB88 /* LoginButtonContent.swift in Sources */,
 				BD5072952404C6DE007A3F16 /* MainView.swift in Sources */,
 				BD50725D2404A964007A3F16 /* AppDelegate.swift in Sources */,
 				BD50725F2404A964007A3F16 /* SceneDelegate.swift in Sources */,

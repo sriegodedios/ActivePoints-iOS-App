@@ -12,8 +12,12 @@ struct PasswordInputField: View {
     @State private var password: String = ""
     
     var body: some View {
-        SecureField("Enter a password", text: $password)
+        SecureField("Password", text: $password)
         .textFieldStyle(RoundedBorderTextFieldStyle())
+        .font(Font.system(size: 14, design: .default))
+        //.multilineTextAlignment(.center)
+        .padding(.vertical, 10.0)
+        .padding(.horizontal, 50)
     }
 }
 

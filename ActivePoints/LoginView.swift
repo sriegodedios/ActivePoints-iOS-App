@@ -13,9 +13,15 @@ struct LoginView: View {
     @State private var password: String = ""
     var body: some View {
         VStack{
+            Text("Login")
+                .font(Font.system(size: 28, design: .default))
             InputField()
             PasswordInputField()
-        }.padding(80)
+            LoginButtonContent()
+                      
+            
+        }.padding(20)
+            .background(Color(red: 204 / 255, green: 229 / 255, blue: 255 / 255))
     }
 }
 

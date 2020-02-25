@@ -9,10 +9,18 @@
 import SwiftUI
 
 struct InputField: View {
-    @State private var name: String = "Tim"
+    @State private var name: String = ""
     var body: some View {
         TextField("Username", text: $name)
             .textFieldStyle(RoundedBorderTextFieldStyle())
+            .font(Font.system(size: 14, design: .default))
+            //.multilineTextAlignment(.center)
+            .padding(.vertical, 10.0)
+            .padding(.horizontal, 50)
+        
+        
+            
+        
         
         
         
@@ -24,3 +32,4 @@ struct InputField_Previews: PreviewProvider {
         InputField()
     }
 }
+
